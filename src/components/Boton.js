@@ -1,7 +1,9 @@
 import React from 'react'; 
 
-function Boton() { 
+function Boton(props) { 
     return ( 
-        
+        <button> 
+            {props.texto} //Sintaxis de desestructuracion 
+        </button>
     );
 }
