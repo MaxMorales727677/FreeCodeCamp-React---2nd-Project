@@ -1,9 +1,13 @@
 import React from 'react'; 
 
-function Boton(props) { 
+function Boton({ texto, esBotonDeClic, manejarClic }) { 
     return ( 
-        <button> 
-            {props.texto} //Sintaxis de desestructuracion 
+        <button 
+            className={esBotonDeClic ? 'boton-clic' : 'boton-reiniciar'}
+            onClick={manejarClic}>   
+            {texto} 
         </button>
     );
 }
+
+export default Boton;
