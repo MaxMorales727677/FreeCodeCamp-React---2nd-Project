@@ -1,4 +1,5 @@
 import './App.css';
+import './hojas-de-estilo/boton.css';
 import Boton from './components/Boton';
 import freeCodeCampLogo from './images/FreeCodeCamp_logo.svg.png';
 
