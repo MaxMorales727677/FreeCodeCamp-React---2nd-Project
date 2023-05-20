@@ -7,3 +7,5 @@ function Contador({ numClics }) {
         </div>
     );
 }
+
+export default Contador;
